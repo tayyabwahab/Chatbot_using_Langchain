@@ -35,6 +35,7 @@ In order to use open source llms locally, this app uses [Ollama](https://ollama.
 
     ```bash
     curl -fsSL https://ollama.com/install.sh | sh
+    ```
 
 4. **Download LLMs** 
 
@@ -45,6 +46,6 @@ In order to use open source llms locally, this app uses [Ollama](https://ollama.
 
 ## ▶️ Start application 
 
-5. **Run**
     ```bash
     streamlit run app.py
+    ```
