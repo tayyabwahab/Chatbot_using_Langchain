@@ -37,6 +37,6 @@ This project is a simple web-based chatbot application built using [Streamlit](h
     ollama pull deepseek-v2
 
 ## ▶️ Run the application 
-
+    
     ```bash
     streamlit run app.py
