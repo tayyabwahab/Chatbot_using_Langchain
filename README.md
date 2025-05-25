@@ -29,7 +29,14 @@ This project is a simple web-based chatbot application built using [Streamlit](h
    ```bash
    pip install -r requirements.txt
 
-3. **Download LLMs** 
+3. **Download and Install Ollama**
+
+In order to use open source llms locally, this app uses [Ollama](https://ollama.com/), a tool for running large language models locally.
+
+    ```bash
+    curl -fsSL https://ollama.com/install.sh | sh
+
+4. **Download LLMs** 
 
     ```bash
     ollama pull llama3
@@ -38,6 +45,6 @@ This project is a simple web-based chatbot application built using [Streamlit](h
 
 ## ▶️ Start application 
 
-4. **Run**
+5. **Run**
     ```bash
     streamlit run app.py
