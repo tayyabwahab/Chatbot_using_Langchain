@@ -20,7 +20,7 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-st.title("Chatbot for Q&A")
+st.title("Chatbot for Q&A using Langchain")
 
 # Initialize session state for chat history
 if "chat_history" not in st.session_state:
@@ -36,7 +36,7 @@ chain = prompt | llm | output
 
 # Input form at the bottom
 with st.form(key="input_form"):
-    input_text = st.text_input("Search the topic you want", key="input")
+    input_text = st.text_input("How I can assist you?", key="input")
     submitted = st.form_submit_button("Submit")
 
 # Immediately show the latest response if just submitted
