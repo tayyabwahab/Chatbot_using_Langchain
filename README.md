@@ -18,20 +18,25 @@ This project is a simple web-based chatbot application built using [Streamlit](h
 
 ## 📦 Setup Instructions
 
-1. **Install dependencies**
+1. **Create a Virtual Environment**
+    
+    ```bash 
+    virtualenv ~/Chatbot_Langchain
+    source ~/Chatbot_Langchain/bin/activate
+
+2. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
 
-2. **Download LLMs** 
+3. **Download LLMs** 
 
     ```bash
     ollama pull llama3
     ollama pull gemma
     ollama pull deepseek-v2
 
-## ▶️ Run the application
-3. **Download LLMs** 
+## ▶️ Run the application 
 
     ```bash
     streamlit run app.py
