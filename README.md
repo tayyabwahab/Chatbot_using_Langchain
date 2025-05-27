@@ -48,4 +48,4 @@ This project is a simple web-based chatbot application built using [Streamlit](h
 
 5. **Run**
     ```bash
-    streamlit run app.py
+    streamlit run main.py
